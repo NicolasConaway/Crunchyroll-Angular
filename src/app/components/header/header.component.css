@@ -3,7 +3,23 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    margin: 1% 0 0 0;
+    margin: 0;
+    padding: 1% 0 0 0;
+}
+
+/* Two header section styles */
+.title-nav__container,
+.search-profile__container {
+    width: 40%;
+}
+.title-nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-profile__container {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Site title styles */
@@ -14,6 +30,7 @@
 /* Navbar styles */
 .navbar {
     width: 20%;
+    margin: 0 20% 0 0;
 }
 .navbar ul {
     display: flex;
@@ -23,19 +40,19 @@
 }
 .navbar li {
     list-style: none;
-    margin: 0 3% 0 3%;
-    font-size: 1.2rem;
+    margin: 0 8% 0 8%;
+    font-size: 1.1rem;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
 
 /* Search bar styles */
 .search__container {
-    width: 15%;
+    width: 25%;
     display: flex;
     border: solid 1px black;
-    border-radius: 10px;
-    padding: 3px 4px;
+    border-radius: 20px;
+    padding: 3px 6px;
 }
 .searchBar {
     width: 85%;
@@ -50,5 +67,5 @@
     padding: 0;
 }
 .searchIcon {
-    width: 70%;
+    width: 75%;
 }
