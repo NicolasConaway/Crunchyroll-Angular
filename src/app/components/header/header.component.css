@@ -15,11 +15,11 @@
 .title-nav__container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .search-profile__container {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 /* Site title styles */
@@ -30,7 +30,7 @@
 /* Navbar styles */
 .navbar {
     width: 20%;
-    margin: 0 20% 0 0;
+    margin: 0 0 0 10%;
 }
 .navbar ul {
     display: flex;
@@ -42,8 +42,34 @@
     list-style: none;
     margin: 0 8% 0 8%;
     font-size: 1.1rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
+}
+
+/* Menu icon Styles */
+.profile__container {
+    width: 30%;
+    margin-right: 5%;
+}
+.profile__container ul {
+    padding: 0;
+    display: flex;
+}
+.profile__container li {
+    list-style: none;
+    margin: 0;
+}
+.menuIcon__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menuIcon__container img {
+    width: 20%;
+}
+.menuIcon__container p {
+    margin: 0;
+    font-size: .8rem;
 }
 
 /* Search bar styles */
@@ -53,11 +79,14 @@
     border: solid 1px black;
     border-radius: 20px;
     padding: 3px 6px;
+    height: 25px;
 }
 .searchBar {
     width: 85%;
     border: none;
     outline: none;
+    border-radius: 20px;
+    height: 25px;
 }
 .searchBtn {
     width: 15%;
@@ -65,6 +94,8 @@
     background-color: white;
     outline: none;
     padding: 0;
+    border-radius: 20px;
+    height: 25px;
 }
 .searchIcon {
     width: 75%;
