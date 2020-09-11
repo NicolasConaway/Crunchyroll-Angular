@@ -75,11 +75,11 @@
     align-items: center;
 }
 .menuIcon__container img {
-    width: 20%;
+    width: 22%;
 }
 .menuIcon__container p {
     margin: 0;
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 /* Search bar styles */
